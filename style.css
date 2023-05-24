@@ -96,3 +96,49 @@
     * stays fixed when scrolling; relative when stationary
 
 */
+
+/* 
+? Dsiplay Property
+* Treats an element as block or inline
+* Blocks are created top-to-bottom
+* Inline are positioned side-by-side
+*/
+
+.display-container {
+    margin-top: 2em;
+}
+
+.block-container {
+    border: 2px solid black;
+    margin-top: 2px;
+}
+
+.inline-element {
+    margin: 5px;
+    display: block;
+}
+
+.inline-block {
+    border: 2px solid black;
+    margin: 2px;
+    display: inline-block;
+    width: 125px;
+    /* allows us to set the width and height of an inline element  */
+}
+
+.float-container {
+    margin-top: 2em;
+    border: 2px solid blue;
+    height: 20vw;
+}
+
+.float-box {
+    margin: 5px;
+    border: 2px solid orange;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+
+    float: right;
+    /* shifts elements from left to right */
+}
